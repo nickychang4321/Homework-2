@@ -14,7 +14,7 @@ Provide your profitable path, the amountIn, amountOut value for each swap, and y
 What is slippage in AMM, and how does Uniswap V2 address this issue? Please illustrate with a function as an example.
 
 > 滑點是指預期交易價格與實際執行價格之間的差異\
-> Uniswap V2 引入slippage tolerance，允許使用者在兌換過程中設定一個可接受的價格偏差比例。當兌換價格超出這個偏差比例時，交易就會失败。\
+> Uniswap V2 引入slippage tolerance，允許使用者在兌換過程中設定一個可接受的價格偏差比例。當兌換價格超出這個偏差比例時，交易就會失敗。
 
 ```solidity
 function swap(address tokenIn, address tokenOut, uint256 amountIn, uint256 amountOutMin, address to) public virtual {
