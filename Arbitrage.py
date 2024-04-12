@@ -57,4 +57,4 @@ while now_balance < 20:
 		now_balance = 997 * now_balance * liquidity[(lt, i)][1] / (1000 * liquidity[(lt, i)][0] + 997 * now_balance)
 		lt = i
 
-print(f"path: {"->".join(ans)}, tokenB balance={now_balance}")
+print(f"path: {'->'.join(ans)}, tokenB balance={now_balance}")
