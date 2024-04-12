@@ -18,13 +18,12 @@ What is slippage in AMM, and how does Uniswap V2 address this issue? Please illu
 
 ```solidity
 function swap(address tokenIn, address tokenOut, uint256 amountIn, uint256 amountOutMin, address to) public virtual {
-  // ... (other swap logic)
+  // ... 
 
-  // 检查实际兑换到的代幣數量是否少於容許的最小值
-  uint256 amountOut =getAmountOut(amountIn, tokenIn, tokenOut);
+  uint256 amountOut = getAmountOut(amountIn, tokenIn, tokenOut);
   require(amountOut >= amountOutMin, 'Uniswap: Insufficient output amount');
 
-  // ... (transfer tokens)
+  // ... 
 }
 ```
 
