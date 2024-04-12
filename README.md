@@ -6,8 +6,11 @@ Please complete the report problem below:
 Provide your profitable path, the amountIn, amountOut value for each swap, and your final reward (your tokenB balance).
 
 > profitable path : tokenB-\>tokenA-\>tokenD-\>tokenC-\>tokenB
+
 > amountIn : 5 ether 
+
 > amountOut : 20 ether
+
 > final reward : 20.129888944077443 
 
 ## Problem 2
